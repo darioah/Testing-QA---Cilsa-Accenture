@@ -1,0 +1,39 @@
+Caso de uso: Acceso al campus virtual de CILSA.
+
+Precondiciones:
+
+El usuario debe tener un nombre de usuario y contraseña enviado por correo electronico.
+
+Escenarios:
+Escenario 1:Ingreso el sitio y acceso al curso actual.
+
+Actor:
+Usuario del sistema.
+
+Recorrido del escenario:
+
+Pasos necesarios en Escenario 1
+
+ 1. El usuario ingresa al sitio moodel.cilsa.org
+ 2. El usuario  hace clic en el boton entrar.
+ 3. El sitio solicita que se ingrese usuario y contraseña.
+ 4. El usuario hace clic en el boton Acceder.
+ 5. El sitio verifica si es un alumno o docente.
+ 6. Si es alumno.
+ 7. El sitio permite al usuario ingresar y muestra un menu de opciones.
+ 8. El usuario selecciona la opcion mis cursos y escoge el sub-menu Testing funcional y accesibilidad web - Marzo 2022 - Grupo 1.
+ 9. El suario ingresa al curso de testing.
+
+En el caso que sea un ingreso suario docente /profesor el sitio les permitiria realizar otros tipos de tareas que un alumno no podria acceder y tambien en ese caso cambiaria el escenario y las precondiciones.
+
+ 
+     ---------------------------------------- Caso de prueba ----------------------------------------------------------
+
+En escenario 1
+Contexto: Comprobación en el ingreso el sitio y acceso al curso actual.
+Acciones: 
+          Ingreso al sitio y hacer clic en el boton entrar que esta ubicado en la parte superior derecha.
+          Insertar nombre de usuario y contraseña validos y hacer click en el botón de acceder.
+     Desde el menu de cabecera selecciono la opcion Mis Cursos y clic en el sub-menu Testing funcional y accesibilidad web - Marzo 2022 - Grupo 1.
+
+Resultado esperado: El usuario inicia sesion correctamente en el sistema.El sistema lo redirige hacia la pagina de inicio, con las funciones disponibles para aceder al curso.
